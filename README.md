@@ -1,8 +1,10 @@
-# DATA BINDING
+# THE TWO WAY DATA BINDING
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 # PROJECT DESCRIPTION
-I have added the toggleDetails() function in the component class and specified that it takes index as an argument. Inside the function, there is the defined logic for displaying the goal description, which in our case changes the showDescription from false to true and vice versa each time the function is executed. The goals[index] ensures that the function is executed for the goal at the specific index.In the property of data-binding 
+ We want our users to see what they will be typing in real time, that is as they type it. This is the concept of two-way data binding. With two-way data binding, data moves from our template(the view) to our component class(the model) and vice versa. The essence is that when data changes on the template(view) it simultaneously changes in the component class(model) and if it also changes in the model, the view is automatically updated with the changes.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
